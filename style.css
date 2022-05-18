@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+:root {
+    --cor1:#efa7e3;
+    --cor2:#C94B8C;
+    --cor3:#B44FBD;
+    --cor4:#B14ED4;
+    --cor5:#934BC9;
+    --cor6:#ffffff;
+    --cor7:#000000;
+
+    --font-padrao: Arial, Verdana, Helvetica , sans-serif ;
+    --font-indie: 'Indie Flower', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: var(--cor1);
+    background-image: url('imagem/fundo.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: var(--cor7);
+    background-size: cover;
+    background-position: center center;
+    font-family: var(--font-indie);
+    font-weight: bolder;
+    font-size: 2.5em;
+    text-align: center;
+    color: var(--cor6);
+    padding: 40px;
+}
+
+nav {
+    background-color: var(--cor7);
+    background-attachment: fixed;
+    padding: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    line-height: 50px;
+    
+}
+
+nav > a {
+    background-color: var(--cor2);
+    box-shadow: 1px 3px 1px #c94b8c87;
+    color: var(--cor6);
+    font-weight: bolder;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    
+    
+}
+
+a:hover {
+    background-color: var(--cor6);
+    color: var(--cor2);
+    font-weight: bolder;
+    transition-duration: 1.5s;
+}
+
+main {
+    text-align: center;
+    
+}
+
+p {
+    background-color: var(--cor2);  
+   
+}
+
+.wrapper {
+    display: inline-block;
+}
+
+div {
+    box-shadow: 4px 9px 4px #c94b8c87;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+div#div1 {
+    background-color: var(--cor6);
+    background-image: url('imagem/ItiMalia.jpg');
+
+}
+
+div#div2 {
+    background-color: var(--cor6);
+    background-image: url('imagem/miçanga1.jpeg');
+    background-size: cover;
+    
+}
+div#div3 {
+    background-color: var(--cor6);
+    background-image: url('imagem/imgwhite\ \(2\).jpeg');
+    background-size: cover;
+    background-position: center bottom;
+}
+
+div#div4 {
+    width: 0px;
+    height: 0px;
+}
+
+footer,a, p{
+    font-family: var(--font-padrao);
+    font-size: 14px;
+    font-weight: bolder;
+    color: #000000;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+a.footer1:hover {
+    font-family: var(--font-padrao);
+    font-size: 14px;
+    font-weight: bolder;
+    background-color: #ffffff;
+    text-decoration: underline;
+    transition-duration: 1.5s;
+}
