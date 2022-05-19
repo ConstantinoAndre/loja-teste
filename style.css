@@ -30,6 +30,7 @@ header {
     background-color: var(--cor7);
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
     font-family: var(--font-indie);
     font-weight: bolder;
     font-size: 2.5em;
@@ -82,8 +83,8 @@ p {
 section.imagem {
     display: inline-block;
     padding-top: 5px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
     background-color: #ffffffe3;
     text-shadow:1px 1px 0px black;
     border-radius: 10px;
