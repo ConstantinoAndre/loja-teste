@@ -105,7 +105,7 @@ div {
 div#div1 {
     background-color: var(--cor6);
     background-image: url('imagem/ItiMalia.jpg');
-    max-width: 500px;
+    
 
 }
 
@@ -113,7 +113,7 @@ div#div2 {
     background-color: var(--cor6);
     background-image: url('imagem/miçanga1.jpeg');
     background-size: cover;
-    max-width: 500px;
+    
     
 }
 div#div3 {
@@ -121,7 +121,7 @@ div#div3 {
     background-image: url('imagem/imgwhite\ \(2\).jpeg');
     background-size: cover;
     background-position: center bottom;
-    max-width: 500px;
+    
 }
 
 div#div4 {
