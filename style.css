@@ -78,6 +78,15 @@ p {
    
 }
 
+section.imagem {
+    display: inline-block;
+    padding-top: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: var(--cor6);
+    text-shadow:1px 1px 0px black;
+}
+
 .wrapper {
     display: inline-block;
 }
